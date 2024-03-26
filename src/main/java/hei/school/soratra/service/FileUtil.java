@@ -1,7 +1,6 @@
 package hei.school.soratra.service;
 
 import java.io.*;
-
 import org.springframework.stereotype.Component;
 
 @Component
@@ -15,6 +14,7 @@ public class FileUtil {
     }
     return tempFile;
   }
+
   public static void transformFileToUpperCase(File file) throws IOException {
     BufferedReader reader = new BufferedReader(new FileReader(file));
     StringBuilder content = new StringBuilder();

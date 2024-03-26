@@ -8,6 +8,6 @@ import lombok.Setter;
 @Setter
 @Builder
 public class MappedSoratra {
-    private String originalUrl;
-    private String transformedUrl;
+  private String originalUrl;
+  private String transformedUrl;
 }
