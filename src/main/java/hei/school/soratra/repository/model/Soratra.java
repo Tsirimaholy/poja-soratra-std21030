@@ -6,7 +6,6 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.springframework.stereotype.Repository;
 
 @Getter
 @Setter
@@ -14,10 +13,9 @@ import org.springframework.stereotype.Repository;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Soratra {
-    @Id
-    private String id;
-    private String originalFileUrl;
-    private String transformedUrl;
-    private String originalBucketKey;
-    private String transformedBucketKey;
+  @Id private String id;
+  private String originalFileUrl;
+  private String transformedUrl;
+  private String originalBucketKey;
+  private String transformedBucketKey;
 }
