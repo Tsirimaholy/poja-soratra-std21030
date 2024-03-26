@@ -18,4 +18,6 @@ public class Soratra {
     private String id;
     private String originalFileUrl;
     private String transformedUrl;
+    private String originalBucketKey;
+    private String transformedBucketKey;
 }
